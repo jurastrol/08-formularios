@@ -57,7 +57,6 @@ export class ReactiveComponent implements OnInit {
     const pass1 = this.forma.get('pass1').value;
     const pass2 = this.forma.get('pass2').value;
     return ( pass1 === pass2) ? false : true;
-    //return this.forma.get('pass2').invalid && this.forma.get('pass2').touched;
   }
 
 
