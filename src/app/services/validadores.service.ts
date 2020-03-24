@@ -2,8 +2,6 @@ import { Injectable } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { Observable } from 'rxjs';
 import { rejects } from 'assert';
-import { Resolver } from 'dns';
-
 interface ErrorValidate {
   [s: string]: boolean;
 }
